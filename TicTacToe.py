@@ -8,7 +8,10 @@ class TicTacToe:
     self.winner_number = how_many_winners(self.winner_combination_list)
 
   def __str__(self):
-    return '---------\n| {} {} {} |\n| {} {} {} |\n| {} {} {} |\n---------'.format(self.combination[0], self.combination[1], self.combination[2], self.combination[3], self.combination[4], self.combination[5], self.combination[6], self.combination[7], self.combination[8])
+    return '---------\n| {} {} {} |\n| {} {} {} |\n| {} {} {} |\n---------'.format(self.combination[0], 
+                                   self.combination[1], self.combination[2], self.combination[3], 
+                                   self.combination[4], self.combination[5], self.combination[6], 
+                                   self.combination[7], self.combination[8])
 
   def winner_combination(self, input_):
     list_ = []
